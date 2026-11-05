@@ -213,19 +213,7 @@ textarea { resize: vertical; }
 </head>
 <body>
   <!-- Shown until the Firebase config below is filled in -->
-  <main id="setup" class="screen hidden">
-    <div class="folder">
-      <span class="stamp">SETUP</span>
-      <h1>Case Board</h1>
-      <p>One step left: connect your Firebase project.</p>
-      <ol class="steps">
-        <li>Firebase console → Authentication → enable <b>Google</b>.</li>
-        <li>Create a <b>Firestore</b> database and paste the rules from <code>firestore.rules</code>.</li>
-        <li>Project settings → Web app → copy the config into <code>FIREBASE_CONFIG</code> at the top of this file's script.</li>
-        <li>Serve this file over https or localhost, and add your domain under Authentication → Settings → Authorized domains.</li>
-      </ol>
-    </div>
-  </main>
+  
 
   <main id="auth" class="screen hidden">
     <div class="folder">
@@ -348,12 +336,14 @@ import {
    These values are not secrets; your data is protected by firestore.rules.
    ================================================================ */
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.firebasestorage.app",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+ apiKey: "AIzaSyDh1WW0Qtmo33p62T0hOE-FCo8OteqxvWQ",
+  authDomain: "investo-89f12.firebaseapp.com",
+  projectId: "investo-89f12",
+  storageBucket: "investo-89f12.firebasestorage.app",
+  messagingSenderId: "1089890948600",
+  appId: "1:1089890948600:web:880c2a02cf43a240ca720d",
+  measurementId: "G-K9F4FQWZDG"
+
 };
 
 
